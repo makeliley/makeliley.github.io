@@ -1,5 +1,58 @@
 h1 {
-    color: red;}
+  font-family: 'Fredoka One', cursive;
+  float: right;
+  font-size: 3em;}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  background: #4a84ff;
+  float: right;
+  padding: 15px;
+  font-size: 1em;}
+p {
+  font-family: 'Quicksand', sans-serif;
+  background: #eeaba9;
+  padding: 15px;
+  float: left;
+  width: 75%}
+.personalImage {
+  width: 60%;
+  position: relative; /* ok help */
+  justify-content: flex-end;}
+.zig {
+  height: 60px;
+  display: flex;
+  top: 200px;
+  left: 130px;}
+.zag {
+  height: 60px;
+  display: flex;
+  right: 0px;}
+.icon {
+  width: 10%;}
+.icon:hover {
+  opacity: 0.3;
+    filter: alpha(opacity=50);}
+#icons {
+  padding: 10px;
+  position: absolute;
+  top: 400px;}
+body {
+ width: 75%;
+ margin: 0 auto;}
 
-img {
-    width: 15%;}
+ul {
+  list-style: none;}
+.flex-container { 
+	width: 100%;
+  display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;}
+.flex-item {
+	background: grey;
+	padding: 0px;
+	width: 300px;
+	height: 300px;
+	margin: 7px;}
+li img:hover {
+  opacity: 0.5;
+    filter: alpha(opacity=50);}
