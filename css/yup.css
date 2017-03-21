@@ -71,7 +71,7 @@ p {
   left: 10%;}
 .zag {
   max-width: 35%;
-  display: inline;}
+  float: right;}
 
 /* -------- SOCIAL MEDIA ICONS -------- */
 .icon {
