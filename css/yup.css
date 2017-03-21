@@ -38,8 +38,7 @@ h3 {
   display: block;
   clear: both;}
 .movies {
-  margin: 0 0 -8px 0;
-}
+  margin: 0 0 -8px 0;}
 h5 {
   font-family: 'Quicksand', 'Helvetica', sans-serif;
   font-size: 1em;
@@ -83,7 +82,7 @@ p {
 #icons {
   position: absolute;
   left: 10%;
-  top: 15%;}
+  top: 10%;}
 
  /* -------- ART THUMBNAILS -------- */
 .thumbnail {
