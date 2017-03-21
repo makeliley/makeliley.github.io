@@ -7,7 +7,8 @@ html{
     background: -webkit-linear-gradient(#eeaba9, #4a84ff); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eeaba9, #4a84ff); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#eeaba9, #4a84ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eeaba9, #FDF485, #4a84ff); /* Standard syntax */}
+    background: linear-gradient(#eeaba9, #FDF485, #4a84ff);
+/* ---------- STANDARD SYNTAX ------------ */}
 body {
    width: 80%;
    margin: 0 auto;
@@ -33,19 +34,25 @@ h3 {
   font-family: 'Fredoka One', cursive;
   font-size: 5vw;
   padding: 0 0 0 1%;
-  margin: 0 0 -10px 0;
+  margin: 0 0 -20px 0;
   display: block;
   clear: both;}
+.movies {
+  margin: 0 0 -8px 0;
+}
 h5 {
   font-family: 'Quicksand', 'Helvetica', sans-serif;
-  font-size: 1em;}
+  font-size: 1em;
+  padding: 0 0 0 1%;
+  margin: 20px 0 5px 0;}
 p {
   font-family: 'Quicksand', 'Helvetica', sans-serif;
   background: #eeaba9;
   padding: 15px;
   float: left;
   clear: right;
-  width: 70%;}
+  width: 73%;
+  font-size: 1em;}
 .name {
   float: left;
   margin: 0px;}
@@ -56,7 +63,7 @@ p {
   float: right;
   left: 3%;
   top: 0px;
-  margin: 0 0 -4px 0;
+  margin: 10px 0 -4px 0;
   padding: 0;}
 .zig {
   max-width: 35%;
@@ -64,10 +71,12 @@ p {
   top: 190px;
   left: 10%;}
 .zag {
-  margin: auto;
-  max-width: 35%;
-  padding: 0;
-  margin: 0;}
+    max-width: 35%;
+    position: relative;
+    right: 8.5%;
+    bottom: -10%;
+    width: 300px;
+    padding: 10px;}
 
 /* -------- SOCIAL MEDIA ICONS -------- */
 .icon {
@@ -84,7 +93,7 @@ p {
  /* -------- ART THUMBNAILS -------- */
 .thumbnail {
   opacity: .5;
-  max-width: 20%;
+  max-width: 22.2%;
   margin: 1%;}
 .thumbnail:hover {
   opacity: 1.0;
@@ -116,24 +125,28 @@ p {
 /* -------- FOOTER -------- */
 footer {
   font-family: 'Quicksand';
-  font-size: .8em;}
+  font-size: .8em;
+  text-align: right;
+  margin: 5px 0 0 0;}
 
 /* -------- MEDIA QUERIES -------- */
-@media (max-width:550px) {
+@media (max-width:500px) {
   body {
     width: 90%;} 
   p{
     font-size: 1em;}
  .thumbnail {
-    width: 100%;}
+    width: 100%;
+    padding: 0;
+    margin: 1% 0 0 1.5%;}
   h1, h3 {
-    font-size: 2.2em;}
-  h2, p {
+    font-size: 2.1em;}
+  p {
     width: 100%;}
   h2 {
     padding: 2px;}
   .icon {
-    max-width: 18%;
+    max-width: 20%;
     margin-left: 0;
     padding-left: 0;}
   .zig, .zag {
