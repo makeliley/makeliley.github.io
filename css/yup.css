@@ -28,7 +28,7 @@ h2 {
   margin: 0 0 8px 0;
   font-size: 1em;
   text-align: right;
-  width: 65%;}
+  width: 60%;}
 h3 {  
   font-family: 'Fredoka One', cursive;
   font-size: 5vw;
@@ -53,7 +53,7 @@ p {
   }
 .personalImage {
   width: 45%;
-  position: relative;
+  float: right;
   left: 3%;
   top: 0px;
   margin: 0 0 -4px 0;
@@ -64,6 +64,7 @@ p {
   top: 190px;
   left: 10%;}
 .zag {
+  margin: auto;
   max-width: 35%;
   padding: 0;
   margin: 0;}
@@ -132,7 +133,7 @@ footer {
   h2 {
     padding: 2px;}
   .icon {
-    width: 15%;
+    max-width: 18%;
     margin-left: 0;
     padding-left: 0;}
   .zig, .zag {
