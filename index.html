@@ -1,3 +1,5 @@
+<!-- http://stackoverflow.com/questions/17773186/how-to-use-divs-instead-of-tables -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,29 +7,66 @@
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Quicksand" rel="stylesheet">
    </head>
 <body>
-    <h1>Makenzie Ley</h1>
-    <img class="personalImage" alt="personal image" src="http://i.imgur.com/Vj6XhiY.png"><!--https://i.imgur.com/thzI0YW.png-->
+<div class="wrap">
+    <h1 class="name">Makenzie Ley</h1>
+    <img class="personalImage" alt="personal image" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/published/just-playin.png?1489821439"><!--https://i.imgur.com/thzI0YW.png-->
   <img class="zig" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/zigzags_orig.png" alt="zig zag">
  
   <h2>future artist and designer, current student dreamer</h2>
   
   <div id="icons">
     <img class="icon" alt="Dribbble"  src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/dribble-icon_orig.jpg">
-  <a href=""><img class="icon" alt="LinkedIn" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/linkedin-icon_orig.jpg"></a>
+  <a href="https://www.linkedin.com/in/makenzieley/" target="_blank"><img class="icon" alt="LinkedIn" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/linkedin-icon_orig.jpg"></a>
   <a href=""><img class="icon" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/twitter-icon_orig.jpg" alt="Twitter" /></a>
   <a href=""><img class="icon" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/deviantart-icon_orig.jpg" alt="Deviant Art" /></a>
     </div>
+  
+  <h3 class="aboutme">about me</h3>
   <p>Hello! I'm a junior VCD major and this is my second semester at EWU. I was born and raised in the suburbs of Seattle, and never expected I'd go to school 300 miles away, but here I am! I’m currently working on campus at the student gallery. I'm really into cartoons and art and my favorite color is yellow.</p>
+  
+<h3>sample work</h3>
+<h5>click for larger images!</h5>
 
-<ul class="flex-container">
-  <li class="flex-item"><img alt="Typographic Brain" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/89d6e949488657.58b66e4c79912.jpg"></li>
-  <li class="flex-item"><img alt="Little Golden Book Parody" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f7194349488845.58b8be0fe6263.jpg"></li>
-  <li class="flex-item"><img alt="White House Gems" src="http://img00.deviantart.net/22ce/i/2017/015/2/f/idk_man_by_eliley-davkumj.jpg"></li>
-  <li class="flex-item"><img alt="Adams Family" src="http://pre04.deviantart.net/407e/th/pre/i/2016/305/e/6/addams_by_eliley-dan0lhf.png"></li>
-  <li class="flex-item"><img alt="iPhone doodle" src="http://img12.deviantart.net/a72c/i/2016/044/e/d/plane_doodle_by_eliley-d9rkyx0.jpg"></li>
-  <li class="flex-item"><img alt="High School Painting" src="http://pre04.deviantart.net/b606/th/pre/i/2016/134/1/f/masters_painting_by_eliley-d9f7ckx.jpg"></li>
-</ul>
+<!-- inspired by https://codepen.io/gschier/pen/HCoqh?editors=1100#0 -->
+<!-- thumbnail image wrapped in a link + images: http://imgur.com/a/NqNam -->
+
+ <section>
+  <a href="#img1">
+  <img src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/f7194349488845-58b8be0fe6263_orig.jpg" class="thumbnail">
+</a>
+
+<a href="#img2">
+  <img alt="Typographic Brain" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/89d6e949488657-58b66e4c79912_orig.jpg" class="thumbnail">
+</a>
+
+<a href="#img3">
+  <img alt="White House Gems" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/idk-man-by-eliley-davkumj_orig.jpg" class="thumbnail"></a>
+
+<a href="#img4">
+  <img alt="High School Painting" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/masters-painting-by-eliley-d9f7ckx_orig.jpg" class="thumbnail">
+</a>
+   
+<!-- lightbox container hidden with CSS -->
+<a href="#_" class="lightbox" id="img1">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f7194349488845.58b8be0fe6263.jpg"></a>
+
+<a href="#_" class="lightbox" id="img2">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/89d6e949488657.58b66e4c79912.jpg">
+</a>
+
+<a href="#_" class="lightbox" id="img3">
+  <img src="http://img00.deviantart.net/22ce/i/2017/015/2/f/idk_man_by_eliley-davkumj.jpg">
+</a>
+
+<a href="#_" class="lightbox" id="img4">
+<img alt="High School Painting" src="http://pre04.deviantart.net/b606/th/pre/i/2016/134/1/f/masters_painting_by_eliley-d9f7ckx.jpg">
+</a>
+    </section> 
+</div>
+  
   <img class="zag" src="http://kenziedraws.weebly.com/uploads/1/6/0/6/16067910/zigzags_orig.png" alt="zig zag">
-<img alt="grey triangle" src="#">
+  <footer>
+    &copy; Makenzie Ley 2017
+  </footer>
 </body>
 </html>
