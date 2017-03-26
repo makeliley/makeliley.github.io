@@ -58,9 +58,9 @@ p {
 .aboutme{
   }
 .personalImage {
-  width: 50%;
+  width: 45%;
   float: right;
-  top: 0px;
+  top: 5px;
   margin: 0 0 -4px 0;
   padding: 0;}
 .zig {
