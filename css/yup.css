@@ -40,7 +40,10 @@ h3 {
 h4 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
-}
+  padding: 0 0 0 1%;
+  margin: 0 0 -20px 0;
+  display: block;
+  clear: both;}
 h5 {
   font-family: 'Quicksand', 'Helvetica', sans-serif;
   font-size: 1em;
@@ -60,7 +63,7 @@ p {
 .aboutme{
   }
 .personalImage {
-  width: 41%;
+  width: 30%;
   float: right;
   top: 5px;
   margin: 0 0 -4px 0;
@@ -151,6 +154,8 @@ footer {
     padding-left: 0;}
   .zig, .zag {
     display: none;}
+  .personalImage {
+    width: 100%;  }
 }
 /* TABLET */
 @media only screen 
