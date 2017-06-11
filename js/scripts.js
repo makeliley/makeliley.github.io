@@ -1,4 +1,13 @@
 // Scripts
+
+// Toggle, Show/Hide Drawer
+$('.toggle-drawer').click( function() {
+  
+  $('aside').toggleClass('drawer');
+  
+});
+
+
 // Lightgallery
 $('figure').lightGallery({
     selector: 'a',
