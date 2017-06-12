@@ -18,8 +18,12 @@ p {
 
 h1 {
     font-family: 'Londrina Solid', cursive;
-    padding: 6%;
-    font-size: 5em;}
+    padding: 4%;
+    font-size: 5em;
+    color: white;}
+h5{
+    font-size: 1.5em;
+    padding: 0 0 10px 0;}
 
 // Personal Icon
 #picon {
@@ -29,18 +33,33 @@ h1 {
 
 // Navigation
 .main-nav {
-  display: -webkit-flex;
-  display: flex;}
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  margin:0px;
+  padding:0px;
+  width:100%;
+  text-align:center;}
 .main-nav a {
   margin: 10px;
   border-radius: 5px;
-  background: #60B99A;
+  background: #f0e53d;
   color: #fff;
-	display: block;
-	padding: 15px;
-	text-decoration: none;}
+  display: block;
+  text-decoration: none;
+  padding: 15px 40px;}
+.main-nav a:hover {
+    background: #d9cf3a;}
+.main-nav a:active {
+    background: #faf5af;
+    color: #f0e53d;}
 .main-nav li{
     list-style: none;
+    display: inline-block;}
+
+.howdy {
+    background: #f0e53d;
+    color: white;
+    font-family: 'Quicksand', sans-serif; 
 }
 
 
@@ -68,12 +87,6 @@ figure img {
     border-radius: 5px;
     margin: 10px 0;}
 
-/* article {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 
 .lg-backdrop {
   position: fixed;
@@ -90,10 +103,8 @@ figure img {
 
 footer {
     width: 100%;
-    margin: auto;
     padding: 0 35%;
-    
-}
+    background: #f0e53d;}
 
 /* -------- MEDIA QUERIES -------- */
 // Phone
