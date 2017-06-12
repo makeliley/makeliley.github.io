@@ -4,13 +4,15 @@
 @import "lightgallery.min";
 @import "lg-transitions.min";
 
+$yellow: #f0e53d;
+
 main {
     background: white;
     font-family: sans-serif;
     font-family: 'Quicksand', sans-serif;
     width: 90%;
-    margin: 0 auto;}
-
+    margin: 0 auto;
+    padding: 0 0 2% 0}
 p {
     display: block;
     padding: 0 0 0 10px;
@@ -21,9 +23,14 @@ h1 {
     padding: 4%;
     font-size: 5em;
     color: white;}
+h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2em;}
 h5{
     font-size: 1.5em;
-    padding: 0 0 10px 0;}
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-align: center;}
 
 // Personal Icon
 #picon {
@@ -35,14 +42,14 @@ h5{
 .main-nav {
   font-family: 'Quicksand', sans-serif;
   width: 100%;
-  margin:0px;
-  padding:0px;
-  width:100%;
-  text-align:center;}
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;}
 .main-nav a {
   margin: 10px;
   border-radius: 5px;
-  background: #f0e53d;
+  background: $yellow;
   color: #fff;
   display: block;
   text-decoration: none;
@@ -56,11 +63,12 @@ h5{
     list-style: none;
     display: inline-block;}
 
+// top part
 .howdy {
-    background: #f0e53d;
+    background: $yellow;
     color: white;
-    font-family: 'Quicksand', sans-serif; 
-}
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px 0 0 0;}
 
 
 // Thumbnails
@@ -72,8 +80,8 @@ h5{
 
 //Social Icons
 .social {
-    width: 10%;
-}
+    width: 9%;
+    padding: 15px;}
 .social:hover {
     opacity: .7;}
 
@@ -86,7 +94,6 @@ figure img {
     box-sizing: 2px 2px 2px grey;
     border-radius: 5px;
     margin: 10px 0;}
-
 
 .lg-backdrop {
   position: fixed;
@@ -103,13 +110,14 @@ figure img {
 
 footer {
     width: 100%;
-    padding: 0 35%;
-    background: #f0e53d;}
+    padding: 0 30%;
+    background: $yellow;}
 
 /* -------- MEDIA QUERIES -------- */
 // Phone
 @media (max-width:700px) {
-  body {
+
+  main {
     width: 90%;} 
   p{
     font-size: 1em;}
@@ -124,7 +132,9 @@ footer {
     display: block;
     margin: 0 auto;}
  .thumb {
-    width: 40%;}
+    width: 25%;}
  .social {
-    width: 80px;}
+    width: 15vw;
+    padding: 2%;
+    margin: 0;}
 }
