@@ -27,6 +27,23 @@ h1 {
     float: left;
     padding: 0 30px;}
 
+// Navigation
+.main-nav {
+  display: -webkit-flex;
+  display: flex;}
+.main-nav a {
+  margin: 10px;
+  border-radius: 5px;
+  background: #60B99A;
+  color: #fff;
+	display: block;
+	padding: 15px;
+	text-decoration: none;}
+.main-nav li{
+    list-style: none;
+}
+
+
 // Thumbnails
 .thumb {
     width: 30%;
@@ -74,6 +91,7 @@ figure img {
 footer {
     width: 100%;
     margin: auto;
+    padding: 0 35%;
     
 }
 
