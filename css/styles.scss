@@ -6,6 +6,12 @@
 
 $yellow: #f0e53d;
 
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px}
+
 main {
     background: white;
     font-family: sans-serif;
@@ -22,7 +28,7 @@ h1 {
     font-family: 'Londrina Solid', cursive;
     padding: 4%;
     font-size: 5em;
-    color: white;}
+    color: red;}
 h2 {
     font-family: 'Londrina Solid', sans-serif;
     font-size: 2em;}
